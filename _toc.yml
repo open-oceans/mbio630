@@ -1,0 +1,21 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: Preface
+    chapters:
+      - file: book/preface/instructor
+      - file: book/preface/syllabus
+  - caption: FAIR principles & Open Science
+    numbered: true
+    maxdepth: 2
+    chapters:
+      - file: book/fair/principles.md
+      - file: markdown-notebooks
+  - caption: Google Earth Engine
+    numbered: true
+    maxdepth: 2
+    chapters:
+      - file: book/gee/introduction.md
