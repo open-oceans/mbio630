@@ -13,6 +13,5 @@ kernelspec:
 
 # Syllabus
 
-The course link is available at <https://manoa.hawaii.edu/catalog/courses/mbio-630-remote-sensing-applications-in-marine-science-3/>.
-
+You can find the syllabus for my portion of the module here
 <iframe src="https://docs.google.com/document/d/143GlT2j6Oprs4m085jtGfhH1U3cq_2JAhnoD50BW1ac/edit?usp=sharing" width="100%" height=800></iframe>
