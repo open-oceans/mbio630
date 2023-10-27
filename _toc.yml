@@ -12,8 +12,8 @@ parts:
     numbered: true
     maxdepth: 2
     chapters:
-      - file: book/fair/principles.md
-      - file: markdown-notebooks
+      - file: book/fair/principles
+      - file: book/fair/findability
   - caption: Google Earth Engine
     numbered: true
     maxdepth: 2

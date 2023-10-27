@@ -13,5 +13,6 @@ kernelspec:
 
 # Syllabus
 
-You can find the syllabus for my portion of the module here
+You can find the syllabus for my portion of the module here and find me on slack to answer any questions you might have as follow on to this content and more. I will do my best to be available as much as possible
+
 <iframe src="https://docs.google.com/document/d/143GlT2j6Oprs4m085jtGfhH1U3cq_2JAhnoD50BW1ac/edit?usp=sharing" width="100%" height=800></iframe>
