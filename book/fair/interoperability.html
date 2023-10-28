@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Syllabus &#8212; Remote Sensing Applications in Marine Science</title>
+    <title>4. Data Interoperability &#8212; Remote Sensing Applications in Marine Science</title>
   
   
   
@@ -62,12 +62,12 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'book/preface/syllabus';</script>
-    <link rel="canonical" href="https://mbio630.openoceans.xyz/book/preface/syllabus.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'book/fair/interoperability';</script>
+    <link rel="canonical" href="https://mbio630.openoceans.xyz/book/fair/interoperability.html" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="1. FAIR Principles in Science" href="../fair/principles.html" />
-    <link rel="prev" title="Instructor" href="instructor.html" />
+    <link rel="next" title="5. Data Reusability" href="reusability.html" />
+    <link rel="prev" title="3. Data Accessibility" href="accessibility.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
     <meta name="docbuild:last-update" content="28 October 2023"/>
@@ -162,17 +162,17 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Preface</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="instructor.html">Instructor</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Syllabus</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../preface/instructor.html">Instructor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface/syllabus.html">Syllabus</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">FAIR principles &amp; Open Science</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../fair/principles.html">1. FAIR Principles in Science</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../fair/findability.html">2. Data Findability</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../fair/accessibility.html">3. Data Accessibility</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../fair/interoperability.html">4. Data Interoperability</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../fair/reusability.html">5. Data Reusability</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="principles.html">1. FAIR Principles in Science</a></li>
+<li class="toctree-l1"><a class="reference internal" href="findability.html">2. Data Findability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accessibility.html">3. Data Accessibility</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">4. Data Interoperability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reusability.html">5. Data Reusability</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Google Earth Engine</span></p>
 <ul class="nav bd-sidenav">
@@ -252,7 +252,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/open-oceans/mbio630/edit/main/book/preface/syllabus.md" target="_blank"
+      <li><a href="https://github.com/open-oceans/mbio630/edit/main/book/fair/interoperability.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -269,7 +269,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/open-oceans/mbio630/issues/new?title=Issue%20on%20page%20%2Fbook/preface/syllabus.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/open-oceans/mbio630/issues/new?title=Issue%20on%20page%20%2Fbook/fair/interoperability.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -299,7 +299,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../../_sources/book/preface/syllabus.md" target="_blank"
+      <li><a href="../../_sources/book/fair/interoperability.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -368,7 +368,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -379,11 +381,20 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Syllabus</h1>
+    <h1>Data Interoperability</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-enhance-data-interoperability">4.1. How to Enhance Data Interoperability</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#making-your-data-more-interoperable">4.2. Making Your Data More Interoperable</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -393,10 +404,29 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="syllabus">
-<h1>Syllabus<a class="headerlink" href="#syllabus" title="Permalink to this heading">#</a></h1>
-<p>You can find the syllabus for my portion of the module here and find me on slack to answer any questions you might have as follow on to this content and more. I will do my best to be available as much as possible</p>
-<iframe src="https://docs.google.com/document/d/143GlT2j6Oprs4m085jtGfhH1U3cq_2JAhnoD50BW1ac/edit?usp=sharing" width="100%" height=800></iframe></section>
+  <section class="tex2jax_ignore mathjax_ignore" id="data-interoperability">
+<h1><span class="section-number">4. </span>Data Interoperability<a class="headerlink" href="#data-interoperability" title="Permalink to this heading">#</a></h1>
+<p>Data interoperability refers to the ability of data to seamlessly integrate and interact with other data sources, systems, and tools. Achieving data interoperability fosters data integration, collaboration, and the creation of a comprehensive, multi-disciplinary knowledge ecosystem.</p>
+<section id="how-to-enhance-data-interoperability">
+<h2><span class="section-number">4.1. </span>How to Enhance Data Interoperability<a class="headerlink" href="#how-to-enhance-data-interoperability" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p><strong>Standardized Data Formats:</strong> Utilize standardized data formats that are widely accepted in your research domain. Common formats, such as CSV, JSON, XML, GeoTIFF, COGs, Shapefile, and GeoJSON for example facilitate the exchange and integration of data between systems and applications.</p></li>
+<li><p><strong>Semantic Annotation:</strong> Apply semantic annotations to your data. This involves adding metadata that defines the meaning and relationships of data elements. Semantic annotations enhance the understanding of data, making it easier to integrate with other datasets.</p></li>
+<li><p><strong>Use of Ontologies:</strong> Employ domain-specific ontologies and controlled vocabularies. These provide a common language for describing data, ensuring that it can be interpreted correctly by other researchers and systems.</p></li>
+<li><p><strong>APIs (Application Programming Interfaces):</strong> Develop APIs that expose your data to external applications and services. APIs facilitate the interaction and exchange of data, allowing other researchers to seamlessly access and integrate your data into their workflows.</p></li>
+<li><p><strong>Linked Data:</strong> Embrace linked data principles. By connecting data to related datasets through RDF (Resource Description Framework) and URIs (Uniform Resource Identifiers), you can enable cross-referencing and data integration at a global scale.</p></li>
+</ol>
+</section>
+<section id="making-your-data-more-interoperable">
+<h2><span class="section-number">4.2. </span>Making Your Data More Interoperable<a class="headerlink" href="#making-your-data-more-interoperable" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p><strong>Metadata Consistency:</strong> Ensure that metadata is consistent and follows established standards. This consistency aids data consumers in understanding the structure and semantics of your data.</p></li>
+<li><p><strong>Data Transformation:</strong> Provide transformation mechanisms for your data. By offering clear guidelines on how to transform your data to meet specific requirements, you empower users to integrate your data into their workflows.</p></li>
+<li><p><strong>Data Mapping:</strong> Offer data mapping documentation that illustrates how your data relates to commonly used schemas and ontologies. This makes it easier for other researchers to map your data to their own standards and integrate it seamlessly.</p></li>
+<li><p><strong>Version Control:</strong> Implement version control for your data and related ontologies. This ensures that changes are documented, and previous versions remain accessible for ongoing research and data integration efforts.</p></li>
+</ol>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -411,7 +441,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./book/preface"
+            path: "./book/fair"
         },
         predefinedOutput: true
     }
@@ -429,20 +459,20 @@ document.write(`
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="instructor.html"
+       href="accessibility.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Instructor</p>
+        <p class="prev-next-title"><span class="section-number">3. </span>Data Accessibility</p>
       </div>
     </a>
     <a class="right-next"
-       href="../fair/principles.html"
+       href="reusability.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">1. </span>FAIR Principles in Science</p>
+        <p class="prev-next-title"><span class="section-number">5. </span>Data Reusability</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -452,6 +482,21 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-enhance-data-interoperability">4.1. How to Enhance Data Interoperability</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#making-your-data-more-interoperable">4.2. Making Your Data More Interoperable</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Syllabus &#8212; Remote Sensing Applications in Marine Science</title>
+    <title>5. Data Reusability &#8212; Remote Sensing Applications in Marine Science</title>
   
   
   
@@ -62,12 +62,12 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'book/preface/syllabus';</script>
-    <link rel="canonical" href="https://mbio630.openoceans.xyz/book/preface/syllabus.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'book/fair/reusability';</script>
+    <link rel="canonical" href="https://mbio630.openoceans.xyz/book/fair/reusability.html" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="1. FAIR Principles in Science" href="../fair/principles.html" />
-    <link rel="prev" title="Instructor" href="instructor.html" />
+    <link rel="next" title="6. Zenodo Setup" href="../handson/principles.html" />
+    <link rel="prev" title="4. Data Interoperability" href="interoperability.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
     <meta name="docbuild:last-update" content="28 October 2023"/>
@@ -162,17 +162,17 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Preface</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="instructor.html">Instructor</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Syllabus</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../preface/instructor.html">Instructor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface/syllabus.html">Syllabus</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">FAIR principles &amp; Open Science</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../fair/principles.html">1. FAIR Principles in Science</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../fair/findability.html">2. Data Findability</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../fair/accessibility.html">3. Data Accessibility</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../fair/interoperability.html">4. Data Interoperability</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../fair/reusability.html">5. Data Reusability</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="principles.html">1. FAIR Principles in Science</a></li>
+<li class="toctree-l1"><a class="reference internal" href="findability.html">2. Data Findability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accessibility.html">3. Data Accessibility</a></li>
+<li class="toctree-l1"><a class="reference internal" href="interoperability.html">4. Data Interoperability</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">5. Data Reusability</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Google Earth Engine</span></p>
 <ul class="nav bd-sidenav">
@@ -252,7 +252,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/open-oceans/mbio630/edit/main/book/preface/syllabus.md" target="_blank"
+      <li><a href="https://github.com/open-oceans/mbio630/edit/main/book/fair/reusability.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -269,7 +269,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/open-oceans/mbio630/issues/new?title=Issue%20on%20page%20%2Fbook/preface/syllabus.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/open-oceans/mbio630/issues/new?title=Issue%20on%20page%20%2Fbook/fair/reusability.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -299,7 +299,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../../_sources/book/preface/syllabus.md" target="_blank"
+      <li><a href="../../_sources/book/fair/reusability.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -368,7 +368,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -379,11 +381,20 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Syllabus</h1>
+    <h1>Data Reusability</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ensuring-data-reusability">5.1. Ensuring Data Reusability</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#making-your-data-more-reusable">5.2. Making Your Data More Reusable</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -393,10 +404,29 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="syllabus">
-<h1>Syllabus<a class="headerlink" href="#syllabus" title="Permalink to this heading">#</a></h1>
-<p>You can find the syllabus for my portion of the module here and find me on slack to answer any questions you might have as follow on to this content and more. I will do my best to be available as much as possible</p>
-<iframe src="https://docs.google.com/document/d/143GlT2j6Oprs4m085jtGfhH1U3cq_2JAhnoD50BW1ac/edit?usp=sharing" width="100%" height=800></iframe></section>
+  <section class="tex2jax_ignore mathjax_ignore" id="data-reusability">
+<h1><span class="section-number">5. </span>Data Reusability<a class="headerlink" href="#data-reusability" title="Permalink to this heading">#</a></h1>
+<p>Data reusability is one of the central components of FAIR principles. It focuses on ensuring that data can be easily employed for various purposes beyond its initial collection. Reusable data not only reduces redundancy in data collection efforts but also promotes the replication of research, fosters scientific collaboration, and stimulates innovation.</p>
+<section id="ensuring-data-reusability">
+<h2><span class="section-number">5.1. </span>Ensuring Data Reusability<a class="headerlink" href="#ensuring-data-reusability" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p><strong>Clear Licensing:</strong> Apply open and clear licensing to your data. Open licenses, such as Creative Commons licenses, specify how others can use your data, allowing for straightforward permissions for reuse.</p></li>
+<li><p><strong>Metadata Enrichment:</strong> Create comprehensive metadata that provides context, usage guidelines, and information on data provenance. Well-documented metadata enables users to understand your data and its potential applications.</p></li>
+<li><p><strong>Data Transformation Guidelines:</strong> Offer guidelines for data transformation. This ensures that users can adapt your data to their specific needs without altering its original integrity. Instructions on data manipulation and formatting are invaluable for reusability.</p></li>
+<li><p><strong>Structured Data:</strong> Organize your data in a structured and standardized format. This simplifies data integration and processing by users, enhancing its reusability.</p></li>
+<li><p><strong>Data Linking:</strong> Foster data linking by providing cross-references to other relevant datasets. This enables users to discover related information that can complement and enrich their own research.</p></li>
+</ol>
+</section>
+<section id="making-your-data-more-reusable">
+<h2><span class="section-number">5.2. </span>Making Your Data More Reusable<a class="headerlink" href="#making-your-data-more-reusable" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p><strong>Documentation:</strong> Create detailed data documentation, including data dictionaries, codebooks, and methodological descriptions. Documentation facilitates understanding and proper usage of your data, enhancing its reusability.</p></li>
+<li><p><strong>Versioning:</strong> Implement version control for your data. This ensures that users can access previous versions, aiding in replication and consistency in research.</p></li>
+<li><p><strong>Community Engagement:</strong> Encourage interaction with the research community and gather feedback on your data. This not only improves data quality but also helps identify potential applications and innovative uses of your data.</p></li>
+<li><p><strong>Data Validation:</strong> Establish mechanisms for data validation, quality assurance, and error reporting. Ensuring data accuracy and reliability enhances its trustworthiness and reusability.</p></li>
+</ol>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -411,7 +441,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./book/preface"
+            path: "./book/fair"
         },
         predefinedOutput: true
     }
@@ -429,20 +459,20 @@ document.write(`
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="instructor.html"
+       href="interoperability.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Instructor</p>
+        <p class="prev-next-title"><span class="section-number">4. </span>Data Interoperability</p>
       </div>
     </a>
     <a class="right-next"
-       href="../fair/principles.html"
+       href="../handson/principles.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">1. </span>FAIR Principles in Science</p>
+        <p class="prev-next-title"><span class="section-number">6. </span>Zenodo Setup</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -452,6 +482,21 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ensuring-data-reusability">5.1. Ensuring Data Reusability</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#making-your-data-more-reusable">5.2. Making Your Data More Reusable</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
