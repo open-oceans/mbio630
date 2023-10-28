@@ -11,7 +11,7 @@ kernelspec:
   name: python3
 ---
 
-# Findability
+# Data Findability
 
 Findability emphasizes the importance of making digital assets easily discoverable. Researchers and scientists should be able to locate relevant data and resources with minimal effort. The metadata of digital assets plays a crucial role in achieving findability. Data findability is the cornerstone of the FAIR principles, ensuring that valuable research data is not lost in the vast sea of information. By embracing standardized metadata, PIDs, and data repositories, researchers can discover data effectively.
 

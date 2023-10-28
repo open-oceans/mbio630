@@ -3,6 +3,7 @@
 
 title: Remote Sensing Applications in Marine Science
 author: Samariya Roy
+copyright: "2023"
 logo: design.png
 
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]

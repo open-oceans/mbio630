@@ -14,6 +14,14 @@ parts:
     chapters:
       - file: book/fair/principles
       - file: book/fair/findability
+      - file: book/fair/accessibility
+      - file: book/fair/interoperability
+      - file: book/fair/reusability
+  - caption: Google Earth Engine
+    numbered: true
+    maxdepth: 2
+    chapters:
+      - file: book/handson/principles
   - caption: Google Earth Engine
     numbered: true
     maxdepth: 2
