@@ -17,11 +17,13 @@ parts:
       - file: book/fair/accessibility
       - file: book/fair/interoperability
       - file: book/fair/reusability
-  - caption: Google Earth Engine
+  - caption: Bring your own Data (BYOD)
     numbered: true
     maxdepth: 2
     chapters:
       - file: book/handson/principles
+      - file: book/handson/create_sync
+      - file: book/handson/create_upload
   - caption: Google Earth Engine
     numbered: true
     maxdepth: 2
