@@ -24,8 +24,16 @@ parts:
       - file: book/handson/principles
       - file: book/handson/create_sync
       - file: book/handson/create_upload
+      - file: book/handson/release
+      - file: book/handson/zenodo_upload
   - caption: Google Earth Engine
     numbered: true
     maxdepth: 2
     chapters:
-      - file: book/gee/introduction.md
+      - file: book/gee/earthengine.md
+      - file: book/gee/gee-community_catalog.md
+  - caption: Labs and Assignments
+    numbered: false
+    maxdepth: 2
+    chapters:
+      - file: book/labs/assignment.md
