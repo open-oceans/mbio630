@@ -25,4 +25,4 @@ perspective on career options beyond academia.
 ## Recommended Reading
 
 - Google Earth Engine: Planetary-scale geospatial analysis for everyone ([Paper](https://www.sciencedirect.com/science/article/pii/S0034425717302900))
-- [Cloud-Based Remote Sensing with Google Earth Engine Fundamentals and Applications](https://link.springer.com/book/10.1007/978-3-031-26588-4). This one is open sourced and written by the Google Earth Engine community.
+- Cloud-Based Remote Sensing with Google Earth Engine Fundamentals and Applications.This one is open sourced and written by the Google Earth Engine community and you can find [the book here](https://link.springer.com/book/10.1007/978-3-031-26588-4).
