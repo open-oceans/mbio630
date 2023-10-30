@@ -26,7 +26,10 @@ width: 20%
 ---
 ```
 
-You can read more about the Google Earth Engine platform [here](https://www.sciencedirect.com/science/article/pii/S0034425717302900)
+## Reading
+Refer to this paper for [additional information about Google Earth Engine](https://www.sciencedirect.com/science/article/pii/S0034425717302900). I
+recommend using other resources like this open Source Earth Engine book [Cloud-Based Remote Sensing with Google Earth Engine
+Fundamentals and Applications](https://link.springer.com/book/10.1007/978-3-031-26588-4) written by the Google Earth Engine community.
 
 ```{figure} images/paper_snippet.jpg
 ---
